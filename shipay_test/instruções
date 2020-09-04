@@ -1,0 +1,22 @@
+como executar a api:
+
+docker:
+apos ter o docker instalado, entre na pasta do projeto e digite os comandos:
+docker-compose build
+docker-compose up
+
+e desfrute com a url base http://0.0.0.0:8000
+
+manualmente:
+na pasta do projeto digite os comandos:
+pip install django
+python manage.py runserver
+
+e desfrute com a url base localhost:8000
+
+
+para comodidade retirei o csrf
+
+o programa foi feito em django e os testes escritos pelas proprias ferramentas de testes deles. para rodar os testes
+va no diretorio shipay_test root(onde esta esse arquivo aqui) e digite o comando python shipay_test/manage.py test payment
+

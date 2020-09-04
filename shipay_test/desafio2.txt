@@ -1,0 +1,19 @@
+olá, João
+
+minhas dicas para voce são:
+
+em questão de segurança, monte um arquivo de config externo e leia ele no seu codigo, nao commite este arquivo e nem divulgue por ai
+nao coloque coisas como 'postgresql+psycopg2://postgres:123mudar@127.0.0.1:5432/bot_db' dentro do codigo.
+
+questão de organização e clean code:
+
+preste atenção nas identações e quebra de linhas sem padrões isso dificulta a leitura e logo a manutenção do codigo
+
+prints são muito bons para testes e desenvolvimento, mas em produção não e bom deixar-los, principalmente tantos assim
+
+uma dica de formatação interessante pra python é utilizade "f" antes da string e passar direto o valor da variavel ao
+invez de escrever elas e colocar .format no final.
+
+em alguma situações você escreveu manuealmente varias coisas repetidas que poderiam sim ter sido feitas por loop.
+
+no mais bom trabalho.
